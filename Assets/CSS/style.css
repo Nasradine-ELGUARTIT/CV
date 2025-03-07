@@ -1,0 +1,160 @@
+@font-face {
+    font-family:lato;
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family:lato-bold;
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family:raleway;
+    src: url(../fonts/Raleway/static/Raleway-Light.ttf);
+}
+@font-face {
+    font-family:raleway-italic;
+    src: url(../fonts/Raleway/static/Raleway-Italic.ttf);
+}
+html{
+    margin-left: 75px;
+    padding-right: 75px;
+    background-color:#f5f5f5;
+}
+h1{
+    font-family:lato-bold;
+    text-align: center;
+}
+h2{
+    font-family:lato;
+}
+p{
+    font-family:raleway;
+}
+a{
+    font-family:raleway;
+}
+body{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#ffffff;
+}
+h3{
+    font-family:lato;
+    color:#17abb3;
+    border-bottom:1px solid rgba(0, 0, 0, 0.267);
+    padding: 10px;
+}
+h4{
+    font-family:lato-bold;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    background-color:#17abb3 ;
+    color: #ffffff;
+}
+header{
+    text-align: center;
+    width: 100%;
+    background-color: #17abb3;
+    color:#ffffff;
+}
+header li{
+    list-style: none;
+}
+img{
+    width: 8%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #ffffff;
+    display: flex;
+    display: inline-block;
+    cursor:zoom-in;
+}
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+main{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.perso{
+    border: black;
+    list-style-type: square;
+    height: 100%;
+    background-color: #e3e3e3;
+    padding-left: 50px;
+    padding-right:50px;
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+.perso h4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.perso li{
+    color: #17abb3;
+}
+.perso i{
+    color: #17abb3;
+}
+.perso div{
+    display: inline-block;
+    padding-left: 15px;
+}
+.perso p{
+    font-family:raleway;
+    font-weight: bold;
+}
+span{
+    padding-left: 25px;
+}
+
+.pro{
+    width: 70%;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin-left:50px;
+}
+.pro h4{
+    margin-bottom: 0;
+
+}c
+.survol :hover{
+    border-left:5px solid #17abb3;
+    background-color: #e3e3e3;
+
+}
+.pro p{
+    font-family:raleway-italic;
+    font-weight: bold;
+    font-size: small;
+    margin-top: 0;
+}
+.pro time{
+    font-weight: bold;
+    font-family:raleway;
+    display: flex;
+    color: #17abb3;
+    justify-content:right;
+}
+li{
+    list-style-type: square;
+}
+li p{
+    color: black;
+}
+header i{
+    padding-right: 15px;
+}
+footer i{
+    padding-top :15px;
+    padding-right: 10px;
+}
+footer a:hover{
+    opacity: 0.5;
+}
